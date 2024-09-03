@@ -2,7 +2,7 @@ FROM amazoncorretto:17
 LABEL maintainer="Salvo Nicotra"
 ENV PATH /opt/kafka/bin:$PATH
 ENV KAFKA_DIR "/opt/kafka"
-ARG KAFKA_VERSION="2.13-3.7.0"
+ARG KAFKA_VERSION="2.13-3.7.1"
 
 # Installing Kafka
 # ADD will automatically extract the file
